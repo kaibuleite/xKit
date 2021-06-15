@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* xKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		652F02518B3206EAEAE8F039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6AE4EA38605E3B533FBC24C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C596C8AC36E2C5C281646965 /* xKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = xKit.podspec; path = ../xKit.podspec; sourceTree = "<group>"; };
+		652F02518B3206EAEAE8F039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6AE4EA38605E3B533FBC24C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C596C8AC36E2C5C281646965 /* xKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = xKit.podspec; path = ../xKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E21D926E27BD0BF208A846AD /* Pods-xKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-xKit_Tests/Pods-xKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9C0A20EE0896ACA9CD43528 /* Pods-xKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-xKit_Example/Pods-xKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				1E5CD33A0C06C61B6E7CFBB3 /* Pods-xKit_Tests.debug.xcconfig */,
 				E21D926E27BD0BF208A846AD /* Pods-xKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +269,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-xKit_Example/Pods-xKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/xAlert/xAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/xDefine/xDefine.framework",
+				"${BUILT_PRODUCTS_DIR}/xExtension/xExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/xKit/xKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xDefine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
