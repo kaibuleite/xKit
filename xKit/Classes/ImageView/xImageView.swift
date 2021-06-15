@@ -15,7 +15,7 @@ open class xImageView: UIImageView {
     /// 是否为圆形图片(优先级高于圆角)
     @IBInspectable public var isCircle : Bool = false
     /// 默认填充色
-    @IBInspectable public var defaultFillColor : UIColor = .clear
+    @IBInspectable public var fillColor : UIColor = .clear
     
     // MARK: - Private Property
     /// 是否加载过样式
@@ -53,11 +53,11 @@ open class xImageView: UIImageView {
         self.maskLayer.lineJoin = kCALineJoinRound
         self.contentMode = .scaleAspectFill // 全填充
         let size = self.bounds.size
-        if self.defaultFillColor == .clear {
+        if self.fillColor == .clear {
             self.image = UIColor.xNewRandom(alpha: 0.3).xToImage(size: size)
         }
         else {
-            self.image = self.defaultFillColor.xToImage(size: size)
+            self.image = self.fillColor.xToImage(size: size)
         }
     }
     /// 视图已显示（GCD调用）
