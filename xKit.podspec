@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of xKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  # 类文件
   s.source_files = 'xKit/Classes/**/*'
+  # 资源文件（文件会直接放到目录下）
+  s.resources = 'xKit/Assets/**/*'
   
   # s.resource_bundles = {
   #   'xKit' => ['xKit/Assets/*.png']
