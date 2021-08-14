@@ -160,7 +160,7 @@
 		0C818786F38E56915AB6F6C4FF8B3078 /* xDefine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-prefix.pch"; sourceTree = "<group>"; };
 		0EFC197F4D927F53E76A0DD36A014807 /* View+xLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+xLayout.swift"; path = "xExtension/Classes/Kit/View/View+xLayout.swift"; sourceTree = "<group>"; };
 		178CE7EAB13C8B48E4ED25382AB4FB51 /* Double+xToValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+xToValue.swift"; path = "xExtension/Classes/Object/Float/Double+xToValue.swift"; sourceTree = "<group>"; };
-		192D10AABC160EA788C9B7404900FDCA /* Pods_xKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xKit_Example.framework; path = "Pods-xKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192D10AABC160EA788C9B7404900FDCA /* Pods_xKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A02B063F052686E799477E25C314C99 /* Color+xNew.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+xNew.swift"; path = "xExtension/Classes/Kit/Color/Color+xNew.swift"; sourceTree = "<group>"; };
 		1D4AF7E5826B87F79E110D2F75C2218A /* Timestamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timestamp.swift; path = xDefine/Classes/Function/Timestamp.swift; sourceTree = "<group>"; };
 		1D6219DCBA9A41387713418DCF5BB2F7 /* xViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xViewController.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 		4662FDA06739CC8157FB5122768A20BF /* xExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xExtension-Info.plist"; sourceTree = "<group>"; };
 		48994B8D8F0794A6DA0C9200D90CC7EB /* xButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xButton.swift; sourceTree = "<group>"; };
 		492B25976C0D45A4FDDA71F38B99FEA9 /* xNavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xNavigationView.swift; sourceTree = "<group>"; };
-		4A43A67F7BDAC1A7CA4690E298DD9299 /* Pods_xKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xKit_Tests.framework; path = "Pods-xKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A43A67F7BDAC1A7CA4690E298DD9299 /* Pods_xKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAF5AD47C891D48B2C7E6AFEB2D8ECC /* xRoundCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xRoundCornerView.swift; sourceTree = "<group>"; };
 		4BE4EEA00A39A16B64D7A9D221833C4A /* xKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xKit-umbrella.h"; sourceTree = "<group>"; };
 		4F0F062C8090F166A22472A10DCF38FF /* Pods-xKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		78916F53C8E9F018A69B28D9C4F2101E /* xExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC9A28BB9D1BCF183588FEA64519103 /* Array+xFind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+xFind.swift"; path = "xExtension/Classes/Object/Array/Array+xFind.swift"; sourceTree = "<group>"; };
 		7E870D5A6A0C6F2F6E07E52B8C5ADA30 /* xDefine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xDefine.modulemap; sourceTree = "<group>"; };
-		8422481176AE18A35E998C558228D6AA /* xKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = xKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8422481176AE18A35E998C558228D6AA /* xKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = xKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8475982F6CD0612B69D9F37DF563C107 /* xDefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xDefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8504057C19A391522A38132FF4FD2F35 /* Image+xToValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+xToValue.swift"; path = "xExtension/Classes/Kit/Image/Image+xToValue.swift"; sourceTree = "<group>"; };
 		8EAC90BC36FE3E2AB55C7C355F14B6C0 /* Date+xTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+xTime.swift"; path = "xExtension/Classes/Object/Date/Date+xTime.swift"; sourceTree = "<group>"; };
@@ -213,9 +213,9 @@
 		9276C5088313ACF72605A09C4681E47C /* Notification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notification.swift; path = xDefine/Classes/Value/Notification.swift; sourceTree = "<group>"; };
 		97700F16A8C457D2D3A4A778227FD7A7 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = xDefine/Classes/Function/Random.swift; sourceTree = "<group>"; };
 		982738398EF75BCE7009C76567437F4E /* xTwoSideImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xTwoSideImageView.swift; sourceTree = "<group>"; };
-		983B66B0F14CB39BDC4BC836B14D365B /* xKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xKit.framework; path = xKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983B66B0F14CB39BDC4BC836B14D365B /* xKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9902653E9DFB56917C72B82AB08B0AFD /* xCountDownButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xCountDownButton.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCB9201BE5931BF81545A6B1B886299 /* Pods-xKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		9F69AD5E34B14E89F47C6314CEF51D09 /* String+xCharacter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+xCharacter.swift"; path = "xExtension/Classes/Object/String/String+xCharacter.swift"; sourceTree = "<group>"; };
 		A3FE815116D28C7733E6C48EA3CA4525 /* Array+xCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+xCheck.swift"; path = "xExtension/Classes/Object/Array/Array+xCheck.swift"; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 		A8B2AF2D14AA19DC0D78EEC5042F44F6 /* xImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xImageView.swift; sourceTree = "<group>"; };
 		ACA7556DE8E585D2CBA642617F480D73 /* ViewController+xKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+xKit.swift"; path = "xExtension/Classes/Kit/ViewController/ViewController+xKit.swift"; sourceTree = "<group>"; };
 		AD32F391CABBBAA014DD3B74BAA4984A /* xDefine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xDefine-Info.plist"; sourceTree = "<group>"; };
-		AEB303D62D4E1EC5F76F824223209EB9 /* xExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xExtension.framework; path = xExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB303D62D4E1EC5F76F824223209EB9 /* xExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBAC3C919AC0A0F933B1ADF8A98AFFC /* xNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xNavigationController.swift; sourceTree = "<group>"; };
 		AFF5D0BA54BBD6F22AF6C89A08013C1C /* xNavigationView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = xNavigationView.xib; sourceTree = "<group>"; };
 		B05DD719889446243D8EBB8AED786755 /* Float+xToValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Float+xToValue.swift"; path = "xExtension/Classes/Object/Float/Float+xToValue.swift"; sourceTree = "<group>"; };
@@ -250,13 +250,13 @@
 		D0C6B9889783A5C950F7956332CF82E5 /* xTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xTextField.swift; sourceTree = "<group>"; };
 		D0F255A89BC3E3FF4FE4A04094A250D4 /* String+xAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+xAlert.swift"; path = "xExtension/Classes/Object/String/String+xAlert.swift"; sourceTree = "<group>"; };
 		D0F604259495DC0B262EEB3837416BF0 /* Timer+xNew.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Timer+xNew.swift"; path = "xExtension/Classes/Object/Timer/Timer+xNew.swift"; sourceTree = "<group>"; };
-		D34B05EF7582CE586423134632BB1C55 /* xDefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xDefine.framework; path = xDefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34B05EF7582CE586423134632BB1C55 /* xDefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xDefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A1018A9D0E715401CE7E0BCF644DE1 /* xExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xExtension.debug.xcconfig; sourceTree = "<group>"; };
 		D5644A1A05F10998FC52D1503C9A7F10 /* Pods-xKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D914314760C29E8CC5E7685A1B17C07A /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = xDefine/Classes/Function/Log.swift; sourceTree = "<group>"; };
 		E27C0F10F0D532FE7B87DEB291F57547 /* Pods-xKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E62B99580BA7CE4C671A7B2A7EB0BE24 /* Pods-xKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xKit_Example-Info.plist"; sourceTree = "<group>"; };
-		E6AC28637C8E7550DB6441359641A9E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6AC28637C8E7550DB6441359641A9E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E78A5948C56C1193D1618BF50C260F69 /* Pods-xKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		E88071F003E7025834AC2CF2F0D70B9F /* ViewController+xTabbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+xTabbar.swift"; path = "xExtension/Classes/Kit/ViewController/ViewController+xTabbar.swift"; sourceTree = "<group>"; };
 		ECFB1BD46855DDCB71FCA0F84E4B63D9 /* xInputAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xInputAccessoryView.swift; sourceTree = "<group>"; };
@@ -273,7 +273,7 @@
 		FBE97B424A98B68EC40A5112DA2DEFB9 /* Image+xEdit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+xEdit.swift"; path = "xExtension/Classes/Kit/Image/Image+xEdit.swift"; sourceTree = "<group>"; };
 		FC7FA0336DC2F1E606C2F853A0740860 /* xExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xExtension-umbrella.h"; sourceTree = "<group>"; };
 		FD38E4817591C0C041B0E4ADF20E89AD /* Layer+xEdit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layer+xEdit.swift"; path = "xExtension/Classes/Kit/Layer/Layer+xEdit.swift"; sourceTree = "<group>"; };
-		FE65F03763CAF5E09E22CC1021C84AA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE65F03763CAF5E09E22CC1021C84AA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,7 +337,6 @@
 				F32B0B97103A2156CFEC5D143D65BCE6 /* View.swift */,
 				416EE176BAB2E2FA7CD8F6D2C1D5A795 /* Support Files */,
 			);
-			name = xDefine;
 			path = xDefine;
 			sourceTree = "<group>";
 		};
@@ -565,7 +564,6 @@
 				E88071F003E7025834AC2CF2F0D70B9F /* ViewController+xTabbar.swift */,
 				17C9DA2D7FAD56B5C9BFE0BA9C208968 /* Support Files */,
 			);
-			name = xExtension;
 			path = xExtension;
 			sourceTree = "<group>";
 		};
@@ -1065,6 +1063,37 @@
 			};
 			name = Debug;
 		};
+		15A92EF0BA9CDAC838AD13CB316435E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B332DA936A158D2A173EBCD21BEA5749 /* xDefine.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
+				PRODUCT_MODULE_NAME = xDefine;
+				PRODUCT_NAME = xDefine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		31951ACD9E93FB3BD21380ECB1132542 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F443EF3AABBBB58970A2C68C94581703 /* Pods-xKit_Example.release.xcconfig */;
@@ -1092,6 +1121,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		537707358BB8FA2426121787D86DB9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8097AF9180C6F601CB11633B0246CE9 /* xDefine.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
+				PRODUCT_MODULE_NAME = xDefine;
+				PRODUCT_NAME = xDefine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1157,76 +1218,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7D5179581B3C35DB5F2B1B2084E5CEF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8097AF9180C6F601CB11633B0246CE9 /* xDefine.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
-				PRODUCT_MODULE_NAME = xDefine;
-				PRODUCT_NAME = xDefine;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		852950460166BE68B6723BEFCA679E0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51685138D821B3052BBD9BBA204560C4 /* xExtension.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/xExtension/xExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xExtension/xExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/xExtension/xExtension.modulemap";
-				PRODUCT_MODULE_NAME = xExtension;
-				PRODUCT_NAME = xExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1281,8 +1278,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1352,40 +1348,9 @@
 			};
 			name = Debug;
 		};
-		938CEE20E345053E97C0312B4C50E37C /* Debug */ = {
+		D0C7971C77A1F2BE0DD7D8C4EA1A70F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B332DA936A158D2A173EBCD21BEA5749 /* xDefine.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
-				PRODUCT_MODULE_NAME = xDefine;
-				PRODUCT_NAME = xDefine;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CAB606AA0DECCBA541F95F3576044CA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4A1018A9D0E715401CE7E0BCF644DE1 /* xExtension.debug.xcconfig */;
+			baseConfigurationReference = 51685138D821B3052BBD9BBA204560C4 /* xExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1407,12 +1372,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D3272E83E7079FB377F468A64A78A2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1447,6 +1413,37 @@
 			};
 			name = Debug;
 		};
+		D617A8F54013CA93BDB8E0669600421A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A1018A9D0E715401CE7E0BCF644DE1 /* xExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xExtension/xExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xExtension/xExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xExtension/xExtension.modulemap";
+				PRODUCT_MODULE_NAME = xExtension;
+				PRODUCT_NAME = xExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DB97A2CCB2FB46579C2EFEF5CB24AC09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64536E374206F9F4EEA5C806A3CF26CC /* xKit.release.xcconfig */;
@@ -1471,7 +1468,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1521,8 +1518,8 @@
 		ACCADE5DF21CB7EECBD5810C26A15306 /* Build configuration list for PBXNativeTarget "xExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAB606AA0DECCBA541F95F3576044CA6 /* Debug */,
-				852950460166BE68B6723BEFCA679E0B /* Release */,
+				D617A8F54013CA93BDB8E0669600421A /* Debug */,
+				D0C7971C77A1F2BE0DD7D8C4EA1A70F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1530,8 +1527,8 @@
 		EFD1D35B7146610CB4DB9B8AA9479C5E /* Build configuration list for PBXNativeTarget "xDefine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				938CEE20E345053E97C0312B4C50E37C /* Debug */,
-				7D5179581B3C35DB5F2B1B2084E5CEF6 /* Release */,
+				15A92EF0BA9CDAC838AD13CB316435E5 /* Debug */,
+				537707358BB8FA2426121787D86DB9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
