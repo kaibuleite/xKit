@@ -28,6 +28,11 @@ open class xTextField: UITextField, UITextFieldDelegate {
     public weak var previousInput : xTextField?
     /// 下一个输入框
     public weak var nextInput : xTextField?
+    /// 内容是否为空
+    public var isEmptyText : Bool {
+        let ret = self.text?.isEmpty ?? true
+        return ret
+    }
     
     // MARK: - Private Property
     /// 是否加载过样式
