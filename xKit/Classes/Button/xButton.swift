@@ -14,7 +14,7 @@ open class xButton: UIButton {
     @IBInspectable public var cornerRadius : CGFloat = 0
     /// 边框线
     @IBInspectable public var borderWidth : CGFloat = 0
-    /// 边框样色
+    /// 边框颜色
     @IBInspectable public var borderColor : UIColor = .clear
     
     // MARK: - Open Override Func
