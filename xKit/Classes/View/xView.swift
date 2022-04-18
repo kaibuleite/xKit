@@ -38,12 +38,13 @@ open class xView: UIView {
     // MARK: - Open Func
     /// 视图已加载
     open func viewDidLoad() {
+    }
+    /// 视图已显示（GCD调用）
+    open func viewDidAppear() {
         guard self.borderWidth > 0 else { return }
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor.cgColor
     }
-    /// 视图已显示（GCD调用）
-    open func viewDidAppear() { }
     
     // MARK: - Private Func
     /// 初始化完成
