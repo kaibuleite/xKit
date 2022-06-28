@@ -38,6 +38,7 @@ open class xView: UIView {
     // MARK: - Open Func
     /// 视图已加载
     open func viewDidLoad() {
+        
     }
     /// 视图已显示（GCD调用）
     open func viewDidAppear() {

@@ -82,7 +82,15 @@ public class xNavigationView: xNibView {
     }
     public override func viewDidAppear() {
         super.viewDidAppear()
-        
+        self.titleLbl.text = self.title
+        if self.title.isEmpty {
+            self.titleLbl.text = self.vc?.title
+        }
+        self.titleLbl.textColor = self.titleColor
+        self.backBtn.tintColor = self.titleColor
+        self.backBtn.isHidden = !self.isShowBackBtn
+        self.barColorView.backgroundColor = self.barColor
+        self.lineView.lineColor = self.lineColor
     }
     
     // MARK: - Public Func

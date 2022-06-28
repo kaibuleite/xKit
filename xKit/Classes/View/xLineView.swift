@@ -40,7 +40,8 @@ public class xLineView: xView {
     }
     public override func viewDidAppear() {
         super.viewDidAppear()
-        guard self.isDashLine == true else { return }
+        self.backgroundColor = self.lineColor
+        guard self.isDashLine else { return }
         self.drawDashLine()
     }
     
