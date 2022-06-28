@@ -23,7 +23,6 @@ open class xNibView: xView {
     // MARK: - Open Override Func
     open override func viewDidLoad() {
         super.viewDidLoad()
-        
         // 加载xib
         let bundle = Bundle.init(for: self.classForCoder)
         bundle.loadNibNamed(self.xClassInfoStruct.name, owner: self, options: nil)

@@ -33,13 +33,13 @@ public class xLineView: xView {
     // MARK: - Public Override Func
     public override func viewDidLoad() {
         super.viewDidLoad()
+        self.clipsToBounds = true
+        self.layer.masksToBounds = true
         self.isUserInteractionEnabled = false
+        self.backgroundColor = self.lineColor
     }
     public override func viewDidAppear() {
         super.viewDidAppear()
-        self.clipsToBounds = true
-        self.layer.masksToBounds = true
-        self.backgroundColor = self.lineColor
         guard self.isDashLine == true else { return }
         self.drawDashLine()
     }

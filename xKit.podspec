@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xKit'
-  s.version          = '1.1.5'
+  s.version          = '1.1.6'
   s.summary          = 'A short description of xKit.'
   s.swift_version    = '5'      # Swift版本号
 

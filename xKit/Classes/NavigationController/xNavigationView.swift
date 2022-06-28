@@ -70,20 +70,19 @@ public class xNavigationView: xNibView {
     // MARK: - Public Override Func
     public override func viewDidLoad() {
         super.viewDidLoad()
-        self.barColorView.backgroundColor = self.barColor
-    }
-    public override func viewDidAppear() {
-        super.viewDidAppear()
-        self.titleLbl.textColor = self.titleColor
-        self.lineView.lineColor = self.lineColor
-        self.barColorView.backgroundColor = self.barColor
-        self.backBtn.tintColor = self.titleColor
-        self.backBtn.isHidden = !self.isShowBackBtn
-        // 标题
         self.titleLbl.text = self.title
         if self.title.isEmpty {
             self.titleLbl.text = self.vc?.title
         }
+        self.titleLbl.textColor = self.titleColor
+        self.backBtn.tintColor = self.titleColor
+        self.backBtn.isHidden = !self.isShowBackBtn
+        self.barColorView.backgroundColor = self.barColor
+        self.lineView.lineColor = self.lineColor
+    }
+    public override func viewDidAppear() {
+        super.viewDidAppear()
+        
     }
     
     // MARK: - Public Func

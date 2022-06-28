@@ -12,7 +12,7 @@ open class xTabBarController: UITabBarController {
     
     // MARK: - 内存释放
     deinit {
-        print("💥 TBC \(self.xClassInfoStruct.name)")
+        print("💥 \(self.xClassInfoStruct.name)")
     }
     
     // MARK: - Open Override Func

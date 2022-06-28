@@ -44,18 +44,16 @@ public class xRoundCornerView: xView {
         self.maskLayer.lineWidth = 1
         self.maskLayer.lineCap = .round
         self.maskLayer.lineJoin = .round
+        guard self.radius > 0 else { return }
+        self.clip(cornerRadius: self.radius)
     }
     public override func viewDidAppear() {
         super.viewDidAppear()
-        if self.radius > 0 {
-            self.clip(cornerRadius: self.radius)
-        }
-        else {
-            self.clip(tlRadius: self.tlRadius,
-                      trRadius: self.trRadius,
-                      blRadius: self.blRadius,
-                      brRadius: self.brRadius)
-        }
+        guard self.radius == 0 else { return }
+        self.clip(tlRadius: self.tlRadius,
+                  trRadius: self.trRadius,
+                  blRadius: self.blRadius,
+                  brRadius: self.brRadius)
     }
     public override func layoutSubviews() {
         super.layoutSubviews()
@@ -78,7 +76,10 @@ public class xRoundCornerView: xView {
     {
         self.layer.cornerRadius = 0
         self.layer.mask = nil
-        guard tlRadius >= 0, trRadius >= 0, blRadius >= 0, brRadius >= 0 else { return }
+        // 必须有个角是圆角
+        if tlRadius <= 0, trRadius <= 0, blRadius <= 0, brRadius <= 0 {
+            return
+        }
         // 声明计算参数
         self.layoutIfNeeded()
         let frame = self.bounds
