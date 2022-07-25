@@ -560,14 +560,14 @@
 		D41CD997FDC27CDA55C0C29A14A49FC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA538A758A32C13DBAAB818B20E0431A /* xView.swift */,
 				B5838F2E078F399DAD7FE788076FFA69 /* xClearView.swift */,
 				2BA4C4CC38FAFB20BA01F8E9DD5E8705 /* xContainerView.swift */,
+				4BAF5AD47C891D48B2C7E6AFEB2D8ECC /* xRoundCornerView.swift */,
 				BCB84B2416CBC01626FC5A3C5F9680B2 /* xGradientColorView.swift */,
 				07B382550632D53B3FB8DF71CC89E620 /* xLineView.swift */,
 				44A8A7E056AD814AD830FA4697EFCCF1 /* xNibView.swift */,
-				4BAF5AD47C891D48B2C7E6AFEB2D8ECC /* xRoundCornerView.swift */,
 				C063FD6A5F61CBF86DE68E77A744B487 /* xSafeView.swift */,
-				FA538A758A32C13DBAAB818B20E0431A /* xView.swift */,
 			);
 			name = View;
 			path = xKit/Classes/View;

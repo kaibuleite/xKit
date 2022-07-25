@@ -16,7 +16,7 @@ open class xNavigationController: UINavigationController {
     
     // MARK: - 内存释放
     deinit {
-        print("💥 \(self.xClassInfoStruct.name)")
+        print("✈️ \(self.xClassInfoStruct.name)")
     }
     
     // MARK: - Open Override Func
