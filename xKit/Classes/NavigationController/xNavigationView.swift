@@ -19,30 +19,30 @@ public class xNavigationView: xNibView {
     @IBInspectable public var isPopRootViewController : Bool = false
     /// 是否显示返回按钮
     @IBInspectable public var isShowBackBtn: Bool = true {
-        willSet { self.backBtn.isHidden = !newValue }
+        didSet { self.backBtn.isHidden = !self.isShowBackBtn }
     }
     /// 标题
     @IBInspectable public var title : String = "" {
-        willSet { self.titleLbl.text = newValue }
+        didSet { self.titleLbl.text = self.title }
     }
     /// 标题颜色
     @IBInspectable public var titleColor: UIColor = .darkText {
-        willSet {
-            self.titleLbl.textColor = newValue
-            self.backBtn.tintColor = newValue
+        didSet {
+            self.titleLbl.textColor = self.titleColor
+            self.backBtn.tintColor = self.titleColor
         }
     }
     /// 分割线颜色
     @IBInspectable public var lineColor: UIColor = UIColor.lightGray {
-        willSet { self.lineView.lineColor = newValue }
+        didSet { self.lineView.lineColor = self.lineColor }
     }
     /// 导航栏颜色
     @IBInspectable public var barColor : UIColor = UIColor.xNew(hex: "F7F6F6") {
-        willSet { self.backgroundColor = newValue }
+        didSet { self.backgroundColor = self.barColor }
     }
     
     // MARK: - IBOutlet Property
-    /// 背景色
+    /// 渐变背景色
     @IBOutlet public weak var barColorView: xGradientColorView!
     /// 返回按钮
     @IBOutlet weak var backBtn: UIButton!
