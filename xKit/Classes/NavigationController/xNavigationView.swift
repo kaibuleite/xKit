@@ -32,13 +32,13 @@ public class xNavigationView: xNibView {
             self.backBtn?.tintColor = newValue
         }
     }
+    /// 导航栏颜色
+    @IBInspectable public var barColor : UIColor = UIColor.xNew(hex: "F7F6F6") {
+        willSet { self.barColorView?.backgroundColor = newValue }
+    }
     /// 分割线颜色
     @IBInspectable public var lineColor: UIColor = UIColor.lightGray {
         willSet { self.lineView?.lineColor = newValue }
-    }
-    /// 导航栏颜色
-    @IBInspectable public var barColor : UIColor = UIColor.xNew(hex: "F7F6F6") {
-        willSet { self.backgroundColor = newValue }
     }
     
     // MARK: - IBOutlet Property
@@ -63,13 +63,10 @@ public class xNavigationView: xNibView {
     // MARK: - Public Override Func
     public override func awakeFromNib() {
         super.awakeFromNib()
+        self.backBtn?.isHidden = !self.isShowBackBtn
         self.titleLbl?.text = self.title
-        if self.title.isEmpty {
-            self.titleLbl?.text = self.vc?.title
-        }
         self.titleLbl?.textColor = self.titleColor
         self.backBtn?.tintColor = self.titleColor
-        self.backBtn?.isHidden = !self.isShowBackBtn
         self.barColorView?.backgroundColor = self.barColor
         self.lineView?.lineColor = self.lineColor
     }
