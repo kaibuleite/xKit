@@ -69,6 +69,7 @@ open class xImageView: UIImageView {
             self.layer.borderColor = self.borderColor.cgColor
         }
         // 圆角遮罩
+        self.layer.masksToBounds = true
         self.maskLayer.backgroundColor = UIColor.clear.cgColor
         self.maskLayer.fillColor = UIColor.red.cgColor
         self.maskLayer.lineWidth = 1
@@ -81,7 +82,7 @@ open class xImageView: UIImageView {
         
         DispatchQueue.main.async {
             self.viewDidAppear()
-            guard self.cornerRadius != 0 else { return }
+            guard self.cornerRadius == 0 else { return }
             self.clip(tlRadius: self.tlRadius,
                       trRadius: self.trRadius,
                       blRadius: self.blRadius,
@@ -97,17 +98,15 @@ open class xImageView: UIImageView {
     // MARK: - Open Func
     /// 视图已显示（GCD调用）
     open func viewDidAppear() {
-        let radius = self.isCircle ? self.bounds.width / 2 : self.cornerRadius
-        self.clip(cornerRadius: radius)
+        
     }
     
     // MARK: - Public Func
     /// 规则圆角
     public func clip(cornerRadius : CGFloat)
     {
-        self.layer.masksToBounds = true
-        self.layer.cornerRadius = cornerRadius
         self.layer.mask = nil
+        self.layer.cornerRadius = cornerRadius
     }
     /// 不规则圆角
     public func clip(tlRadius : CGFloat,
@@ -115,8 +114,6 @@ open class xImageView: UIImageView {
                      blRadius : CGFloat,
                      brRadius : CGFloat)
     {
-        self.layer.cornerRadius = 0
-        self.layer.mask = nil
         guard tlRadius >= 0, trRadius >= 0, blRadius >= 0, brRadius >= 0 else { return }
         // 声明计算参数
         self.layoutIfNeeded()
@@ -131,6 +128,7 @@ open class xImageView: UIImageView {
         self.maskLayer.frame = frame
         self.maskLayer.path = path.cgPath
         self.layer.mask = self.maskLayer
+        self.layer.cornerRadius = 0
     }
     
 }

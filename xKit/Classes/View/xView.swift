@@ -11,7 +11,7 @@ open class xView: UIView {
     
     // MARK: - IBInspectable Property
     /// 填充色
-    @IBInspectable public var fillColor : UIColor = .clear {
+    @IBInspectable public var fillColor : UIColor = .white {
         willSet { self.backgroundColor = newValue }
     }
     /// 边框线
