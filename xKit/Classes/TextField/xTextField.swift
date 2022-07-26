@@ -42,17 +42,17 @@ open class xTextField: UITextField, UITextFieldDelegate {
     
     // MARK: - Private Property
     /// 是否加载过样式
-    private var isInitCompleted = false
+    var isInitCompleted = false
     /// 自定义键盘扩展视图
-    private var accessoryView : xInputAccessoryView?
+    var accessoryView : xInputAccessoryView?
     /// 开始编辑回调
-    private var beginEditHandler : xHandlerTextFieldChangeStatus?
+    var beginEditHandler : xHandlerTextFieldChangeStatus?
     /// 编辑中回调
-    private var editingHandler : xHandlerTextFieldInput?
+    var editingHandler : xHandlerTextFieldInput?
     /// 编辑结束回调
-    private var endEditHandler : xHandlerTextFieldChangeStatus?
+    var endEditHandler : xHandlerTextFieldChangeStatus?
     /// return按钮回调
-    private var returnHandler : xHandlerTextFieldChangeStatus?
+    var returnHandler : xHandlerTextFieldChangeStatus?
     
     // MARK: - 内存释放
     deinit {
