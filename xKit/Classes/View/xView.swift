@@ -10,10 +10,6 @@ import UIKit
 open class xView: UIView {
     
     // MARK: - IBInspectable Property
-    /// 填充色
-    @IBInspectable open var fillColor : UIColor = .clear {
-        willSet { self.backgroundColor = newValue }
-    }
     /// 边框线
     @IBInspectable public var borderWidth : CGFloat = 0 {
         willSet { self.layer.borderWidth = newValue }
@@ -44,11 +40,9 @@ open class xView: UIView {
     /// 初始化完成
     func initCompleted()
     {
-        self.backgroundColor = self.fillColor
-        if self.borderWidth > 0 {
-            self.layer.borderWidth = self.borderWidth
-            self.layer.borderColor = self.borderColor.cgColor
-        }
+        self.backgroundColor = .clear
+        self.layer.borderWidth = self.borderWidth
+        self.layer.borderColor = self.borderColor.cgColor
         
         DispatchQueue.main.async {
             self.viewDidAppear()

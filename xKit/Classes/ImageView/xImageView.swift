@@ -6,12 +6,11 @@
 //
 
 import UIKit
+import xExtension
 
 open class xImageView: UIImageView {
     
     // MARK: - IBInspectable Property
-    /// 默认填充纯色图
-    @IBInspectable public var fillImage : UIColor = .clear
     /// 边框线
     @IBInspectable public var borderWidth : CGFloat = 0 {
         willSet { self.layer.borderWidth = newValue }
@@ -58,11 +57,7 @@ open class xImageView: UIImageView {
         self.backgroundColor = .clear
         // 填充色
         let size = self.bounds.size
-        if self.fillImage == .clear {
-            self.image = UIColor.xNewRandom(alpha: 0.3).xToImage(size: size)
-        } else {
-            self.image = self.fillImage.xToImage(size: size)
-        }
+        self.image = UIColor.xNewRandom(alpha: 0.3).xToImage(size: size)
         // 边框
         if self.borderWidth > 0 {
             self.layer.borderWidth = self.borderWidth

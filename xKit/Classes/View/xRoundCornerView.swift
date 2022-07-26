@@ -21,6 +21,10 @@ public class xRoundCornerView: xView {
        */
     
     // MARK: - IBInspectable Property
+    /// 填充色
+    @IBInspectable open var fillColor : UIColor = .white {
+        willSet { self.backgroundColor = newValue }
+    }
     /// 所有角(优先级高)
     @IBInspectable public var radius : CGFloat = 0
     /// 左上圆角
@@ -39,12 +43,15 @@ public class xRoundCornerView: xView {
     // MARK: - Public Override Func
     public override func awakeFromNib() {
         super.awakeFromNib()
+        self.backgroundColor = self.fillColor
         self.layer.masksToBounds = true
+        
         self.maskLayer.backgroundColor = UIColor.clear.cgColor
         self.maskLayer.fillColor = UIColor.red.cgColor
         self.maskLayer.lineWidth = 1
         self.maskLayer.lineCap = .round
         self.maskLayer.lineJoin = .round
+        
         self.clip(cornerRadius: self.radius)
     }
     public override func viewDidAppear() {
