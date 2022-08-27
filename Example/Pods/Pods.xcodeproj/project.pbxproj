@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00DF1DB75B595D201B44CFFEC168FCF5 /* View+xToValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E48641FF5D5B1FCD5A6E9B2EA3C78C3 /* View+xToValue.swift */; };
+		041FE26828B9A84300FA9008 /* xCaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE26728B9A84300FA9008 /* xCaptchaView.swift */; };
 		0522F638A3F4FCAA17CA60707EE65E2B /* xInputAccessoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = ED674B6C0D1E870D80D50185EE99E20E /* xInputAccessoryView.xib */; };
 		09CC6B6255031B2989D8FA589ACD0692 /* View+xEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C9D7DD4BDB2032D501882D23D536F /* View+xEdit.swift */; };
 		0DB6A222F051934B6640195708006503 /* xNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8A7E056AD814AD830FA4697EFCCF1 /* xNibView.swift */; };
@@ -154,6 +155,7 @@
 
 /* Begin PBXFileReference section */
 		001D003CADBAE3015A7B24E75747A252 /* xExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xExtension.release.xcconfig; sourceTree = "<group>"; };
+		041FE26728B9A84300FA9008 /* xCaptchaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xCaptchaView.swift; sourceTree = "<group>"; };
 		075F70119A44A3BC397EA6D998B7DDE5 /* Pods-xKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		07B382550632D53B3FB8DF71CC89E620 /* xLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = xLineView.swift; sourceTree = "<group>"; };
 		0805FC3AE8AF36A99335BA4F863C014B /* Layer+xEdit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layer+xEdit.swift"; path = "xExtension/Classes/Kit/Layer/Layer+xEdit.swift"; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 			children = (
 				A8B2AF2D14AA19DC0D78EEC5042F44F6 /* xImageView.swift */,
 				982738398EF75BCE7009C76567437F4E /* xTwoSideImageView.swift */,
+				041FE26728B9A84300FA9008 /* xCaptchaView.swift */,
 			);
 			name = ImageView;
 			path = xKit/Classes/ImageView;
@@ -893,6 +896,7 @@
 				DC1C88F980B283C227A1A1D9EB31DBEF /* xClearView.swift in Sources */,
 				F41FDBD0CED8D5A6A5AD3D393861AD9D /* xContainerView.swift in Sources */,
 				E5BE70319E63412EA4E3BEA064197D61 /* xCountDownButton.swift in Sources */,
+				041FE26828B9A84300FA9008 /* xCaptchaView.swift in Sources */,
 				200CB2E41BF1F6C308D2FF532321EA0F /* xGradientColorView.swift in Sources */,
 				1C9D10254538F69502C2B75AA1EF0826 /* xImagePickerController.swift in Sources */,
 				B2C26F8CDCDA7AFD361F70B8FBD48077 /* xImageView.swift in Sources */,
