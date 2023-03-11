@@ -16,7 +16,10 @@ open class xNavigationController: UINavigationController {
     
     // MARK: - 内存释放
     deinit {
-        print("✈️ \(self.xClassInfoStruct.name)")
+        let info = self.xClassInfoStruct
+        let space = info.space
+        let name = info.name
+        print("✈️【\(space).\(name)】")
     }
     
     // MARK: - Open Override Func
@@ -26,7 +29,7 @@ open class xNavigationController: UINavigationController {
         self.modalPresentationStyle = .fullScreen
         // 强制白天模式
         if #available(iOS 13.0, *) {
-            overrideUserInterfaceStyle = .light
+            self.overrideUserInterfaceStyle = .light
         } else {
             // Fallback on earlier versions
         }

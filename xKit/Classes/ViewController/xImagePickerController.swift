@@ -21,7 +21,8 @@ public class xImagePickerController: UIImagePickerController, UIImagePickerContr
     deinit {
         self.chooseHandler = nil
         self.delegate = nil
-        print("📷 \(self.xClassInfoStruct.name)")
+        let name = self.xClassInfoStruct.name
+        print("🖼 【\(name)】")
     }
     
     // MARK: - Public Override Func
