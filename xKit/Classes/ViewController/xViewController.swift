@@ -42,6 +42,10 @@ open class xViewController: UIViewController {
     }
     
     // MARK: - Open Override Func
+    open override class func xDefaultViewController() -> Self {
+        let vc = self.xNewStoryboard()
+        return vc
+    }
     open override func viewDidLoad() {
         super.viewDidLoad()
         // 模态全屏
