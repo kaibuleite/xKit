@@ -1,13 +1,14 @@
 //
-//  xPhoneButton.swift
-//  xKit
+//  xPhoneLabel.swift
+//  xFramework
 //
 //  Created by Mac on 2025/2/11.
 //
 
 import UIKit
+import xExtension
 
-public class xPhoneButton: xButton {
+public class xPhoneLabel: xLabel {
 
     // MARK: - Public Property
     /// 电话
@@ -16,15 +17,9 @@ public class xPhoneButton: xButton {
     // MARK: - Open Override Func
     public override func viewDidLoad() {
         super.viewDidLoad()
-        self.xAddClick {
-            [weak self] (sender) in
-            guard let self = self else { return }
-            var phone = self.phone
-            if phone.count == 0 {
-                phone = sender.currentTitle ?? ""
-            }
-            self.call(phone: phone)
-        }
+        let tap = UITapGestureRecognizer.init(target: self, action: #selector(tapPhone(getsure: )))
+        self.addGestureRecognizer(tap)
+        self.isUserInteractionEnabled = true
     }
     
     // MARK: - Public Func
@@ -34,9 +29,17 @@ public class xPhoneButton: xButton {
     public func reloadData(_ phone : String)
     {
         self.phone = phone
-        self.setTitle(phone, for: .normal)
+        self.text = phone
     }
-    
+
+    @objc func tapPhone(getsure: UITapGestureRecognizer)
+    {
+        var phone = self.phone
+        if phone.count == 0 {
+            phone = self.text ?? ""
+        }
+        self.call(phone: phone)
+    }
     
     /// 拨打电话
     func call(phone : String)
@@ -51,5 +54,5 @@ public class xPhoneButton: xButton {
 //        UIApplication.shared.openURL(url)
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
-
+    
 }

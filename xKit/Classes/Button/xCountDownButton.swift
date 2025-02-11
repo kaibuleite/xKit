@@ -35,11 +35,11 @@ open class xCountDownButton: xButton {
     }
     
     // MARK: - Open Override Func
-    open override func awakeFromNib() {
-        super.awakeFromNib()
+    open override func viewDidLoad() {
+        super.viewDidLoad()
         self.tag = 0
         self.setTitle(" \(self.defaultTitle) ", for: .normal)
-        self.setTitleColor(titleNormalColor, for: .normal)
+        self.setTitleColor(self.titleNormalColor, for: .normal)
         self.backgroundColor = self.backgroundNormalColor
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor.cgColor

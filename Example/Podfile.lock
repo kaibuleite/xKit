@@ -2,7 +2,7 @@ PODS:
   - xDefine (1.0.7)
   - xExtension (1.1.8):
     - xDefine
-  - xKit (1.2.9):
+  - xKit (1.2.11):
     - xDefine
     - xExtension
 
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   xDefine: e9216a8c29a4a5abce78630e311449182c79a7f3
   xExtension: 410b32f4a0377e4962082c7d1315b4b77454f7aa
-  xKit: 0fba1c91da01838194c2e5d299cbd65125688cb8
+  xKit: 0a46747b5a89c3719837485a31576c13fc1ce97a
 
 PODFILE CHECKSUM: 49ccb299356e788fecf294695f69d2a395f50249
 
