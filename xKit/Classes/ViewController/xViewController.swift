@@ -29,7 +29,7 @@ open class xViewController: UIViewController {
     /// 是否显示中
     public var isAppear = false
     /// 是否完成数据加载(默认已完成)
-    public var isRequestDataCompleted = true
+    public var isRequestDataCompleted = false
     /// 子控制器Key
     public var childViewControllerKeys = [String]()
     
