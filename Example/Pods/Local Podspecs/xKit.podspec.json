@@ -1,6 +1,6 @@
 {
   "name": "xKit",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "summary": "A short description of xKit.",
   "swift_versions": "5",
   "description": "TODO: Add long description of the pod here.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/kaibuleite/xKit.git",
-    "tag": "1.2.11"
+    "tag": "1.2.12"
   },
   "platforms": {
     "ios": "13.0"

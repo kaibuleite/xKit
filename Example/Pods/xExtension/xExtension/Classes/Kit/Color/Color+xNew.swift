@@ -38,12 +38,20 @@ extension UIColor {
         let gStr = str.xSub(range: NSMakeRange(2, 2)) ?? "00"
         let bStr = str.xSub(range: NSMakeRange(4, 2)) ?? "00"
         
-        var r = UInt32(0)
+        var r = Int(0)
         var g = r
         var b = r
-        Scanner(string: rStr).scanHexInt32(&r)
-        Scanner(string: gStr).scanHexInt32(&g)
-        Scanner(string: bStr).scanHexInt32(&b)
+        /*
+         iOS13.0 之后方法弃用
+         Scanner(string: rStr).scanHexInt32(&r)
+         Scanner(string: gStr).scanHexInt32(&g)
+         Scanner(string: bStr).scanHexInt32(&b)
+         */
+        
+        if let value = Int(rStr, radix: 16) { r = value }
+        if let value = Int(gStr, radix: 16) { g = value }
+        if let value = Int(bStr, radix: 16) { b = value }
+        
         
         let color = UIColor.init(red: CGFloat(r) / 255,
                                  green: CGFloat(g) / 255,

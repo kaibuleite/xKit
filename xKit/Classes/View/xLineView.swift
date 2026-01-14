@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import xDefine
 
 public class xLineView: xView {
     
     // MARK: - IBInspectable Property
     /// 线条颜色
-    @IBInspectable public var lineColor : UIColor = .groupTableViewBackground {
+    @IBInspectable public var lineColor : UIColor = xGroupBackgroundColor {
         willSet { self.backgroundColor = newValue }
     }
     /// 是否展示虚线
@@ -72,4 +73,5 @@ public class xLineView: xView {
         layer.path = path.cgPath
         self.layer.addSublayer(layer)
     }
+    
 }
